@@ -1,0 +1,58 @@
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+build/
+dist/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.log
+*.lock
+*.swp
+
+# Generated files
+public/*.cache
+public/*.map
+
+# Ignore all public files except index.html
+public/*
+!public/index.html
+
+# Service worker artifacts
+service-worker.js
+sw.js
+
+# Other generated files (e.g., parcel, webpack)
+.cache/
+.parcel-cache/
+
+# ESLint cache
+.eslintcache
+
+# Testing frameworks
+jest-html-reports/
+jest-coverage/
+*.snap
